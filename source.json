@@ -1,12 +1,67 @@
 {
   "source_id": "3pcups",
   "source_name": "3P Cups",
+  "icon_url": "logo.png",
   "groups": [
     {
       "group_id": "apps",
       "group_name": "3P Cups Apps",
-      "app_repos": [],
-      "external_apps": []
+      "external_apps": [
+        {
+          "package_name": "com.Unix14.aiRoads",
+          "title": "aiRoads",
+          "short_description": "Space arcade game",
+          "long_description": "aiRoads — the archived 3P Cups space arcade game. Installed directly from the AppSync source's downloads.",
+          "supported_platforms": ["android_mobile"],
+          "install_kind": "url",
+          "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/aiRoads.apk",
+          "web_url": "https://www.3p-cups.com/2020/04/archived-game-airoads.html",
+          "icon_url": "https://the-3p-cups-project.web.app/img/ic_airoads.png",
+          "version": "1.0"
+        },
+        {
+          "package_name": "com.triPcups.android.randomTv",
+          "title": "Random.TV",
+          "short_description": "Random cartoons, TV and movies",
+          "long_description": "Random.TV — lean back and let it pick something to watch. Installed directly from the AppSync source's downloads.",
+          "supported_platforms": ["android_mobile"],
+          "install_kind": "url",
+          "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/randomTv.apk",
+          "web_url": "https://3p-cups.blogspot.com/2020/04/Random.Tv.html",
+          "icon_url": "https://play-lh.googleusercontent.com/I_7LtMpwWmgB5hHYm4GGLcdB2SIleiklXATC_olOzy718D4ajnbKIbHPXoc66hrL3Q=s180-rw",
+          "version": "1.06"
+        },
+        {
+          "package_name": "com.unix14.android.themoviedb",
+          "title": "The Movie DB",
+          "short_description": "Movie explorer",
+          "long_description": "The Movie DB — browse and discover movies. Installed directly from the AppSync source's downloads.",
+          "supported_platforms": ["android_mobile"],
+          "install_kind": "url",
+          "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/theMovieDb.apk",
+          "web_url": "https://3p-cups.blogspot.com/2020/04/movieMania.html",
+          "icon_url": "https://lh3.googleusercontent.com/qVQR9z2ZLa3aFJ_bhyunj8WNQVw7P1K2pYVlH-oZReJBPHnE2Dua3rCf6BJQvWTszBE=s180-rw",
+          "version": "1.0"
+        },
+        {
+          "package_name": "com.unix14.android.wouldyourather",
+          "title": "Would You Rather",
+          "short_description": "Multiplayer party game",
+          "long_description": "Would You Rather — the classic party question game. Installed directly from the AppSync source's downloads.",
+          "supported_platforms": ["android_mobile"],
+          "install_kind": "url",
+          "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/wouldURather.apk",
+          "web_url": "https://www.3p-cups.com/2019/04/wouldUrather.html",
+          "icon_url": "https://the-3p-cups-project.web.app/img/ic_wyr.png",
+          "version": "1.0.1"
+        }
+      ],
+      "firebase_apps": {
+        "service": "firestore",
+        "project_id": "the-3p-cups-project",
+        "collection": "MyApps",
+        "supported_platforms": ["android_mobile"]
+      }
     }
   ]
 }
