@@ -55,6 +55,18 @@
           "icon_url": "https://the-3p-cups-project.web.app/img/ic_wyr.png",
           "version": "1.0.1"
         }
+        {
+          "package_name": "com.unix14.ShitHead",
+          "title": "Shit Head",
+          "short_description": "Multiplayer card game",
+          "long_description": "Shit Head — the classic card game. Installed directly from the AppSync source's downloads.",
+          "supported_platforms": ["android_mobile"],
+          "install_kind": "url",
+          "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/shitHead.apk",
+          "web_url": "https://www.3p-cups.com/2020/04/ShitHead.html",
+          "icon_url": "https://the-3p-cups-project.web.app/img/ic_poop_head.png",
+          "version": "1.04"
+        }
       ],
       "firebase_apps": {
         "service": "firestore",
@@ -62,6 +74,68 @@
         "collection": "MyApps",
         "supported_platforms": ["android_mobile"]
       }
+    },
+    {
+      "group_id": "pre3p",
+      "group_name": "Pre-3P Era",
+      "external_apps": [
+        {
+          "package_name": "com.example.android.matala02",
+          "title": "Tic Tac Toe",
+          "short_description": "The classic 3x3 game",
+          "long_description": "Tic Tac Toe — an early pre-3P Cups Android exercise.",
+          "supported_platforms": ["android_mobile"],
+          "install_kind": "url",
+          "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/ticTacToe.apk",
+          "version": "1.0"
+        },
+        {
+          "package_name": "com.example.android.mychat",
+          "title": "SeekRet",
+          "short_description": "Chat experiment",
+          "long_description": "SeekRet — an early pre-3P Cups chat experiment.",
+          "supported_platforms": ["android_mobile"],
+          "install_kind": "url",
+          "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/seekRet.apk",
+          "version": "1.0"
+        },
+        {
+          "package_name": "com.DefaultCompany.NightMare",
+          "title": "NightMare",
+          "short_description": "3D zombie survival (Unity)",
+          "long_description": "NightMare — a 3D zombie game built in Unity, originally for Windows, packaged as an Android APK.",
+          "supported_platforms": ["android_mobile"],
+          "install_kind": "url",
+          "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/nightMare.apk",
+          "version": "1.0"
+        }
+      ]
+    },
+    {
+      "group_id": "unknown",
+      "group_name": "Unknown",
+      "external_apps": [
+        {
+          "package_name": "com.Unix14.airXonix",
+          "title": "Test",
+          "short_description": "Mystery build (airXonix)",
+          "long_description": "test.apk — turned out to be an airXonix build.",
+          "supported_platforms": ["android_mobile"],
+          "install_kind": "url",
+          "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/test.apk",
+          "version": "1.0"
+        },
+        {
+          "package_name": "com.example.eyal.myapplication",
+          "title": "Hello World!",
+          "short_description": "The very first one",
+          "long_description": "Hello World! — where it all started.",
+          "supported_platforms": ["android_mobile"],
+          "install_kind": "url",
+          "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/helloWorld.apk",
+          "version": "1.0"
+        }
+      ]
     }
   ]
 }
