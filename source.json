@@ -12,7 +12,9 @@
           "title": "aiRoads",
           "short_description": "Space arcade game",
           "long_description": "aiRoads — the archived 3P Cups space arcade game. Installed directly from the AppSync source's downloads.",
-          "supported_platforms": ["android_mobile"],
+          "supported_platforms": [
+            "android_mobile"
+          ],
           "install_kind": "url",
           "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/aiRoads.apk",
           "web_url": "https://www.3p-cups.com/2020/04/archived-game-airoads.html",
@@ -24,7 +26,9 @@
           "title": "Random.TV",
           "short_description": "Random cartoons, TV and movies",
           "long_description": "Random.TV — lean back and let it pick something to watch. Installed directly from the AppSync source's downloads.",
-          "supported_platforms": ["android_mobile"],
+          "supported_platforms": [
+            "android_mobile"
+          ],
           "install_kind": "url",
           "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/randomTv.apk",
           "web_url": "https://3p-cups.blogspot.com/2020/04/Random.Tv.html",
@@ -36,7 +40,9 @@
           "title": "The Movie DB",
           "short_description": "Movie explorer",
           "long_description": "The Movie DB — browse and discover movies. Installed directly from the AppSync source's downloads.",
-          "supported_platforms": ["android_mobile"],
+          "supported_platforms": [
+            "android_mobile"
+          ],
           "install_kind": "url",
           "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/theMovieDb.apk",
           "web_url": "https://3p-cups.blogspot.com/2020/04/movieMania.html",
@@ -48,7 +54,9 @@
           "title": "Would You Rather",
           "short_description": "Multiplayer party game",
           "long_description": "Would You Rather — the classic party question game. Installed directly from the AppSync source's downloads.",
-          "supported_platforms": ["android_mobile"],
+          "supported_platforms": [
+            "android_mobile"
+          ],
           "install_kind": "url",
           "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/wouldURather.apk",
           "web_url": "https://www.3p-cups.com/2019/04/wouldUrather.html",
@@ -60,19 +68,36 @@
           "title": "Shit Head",
           "short_description": "Multiplayer card game",
           "long_description": "Shit Head — the classic card game. Installed directly from the AppSync source's downloads.",
-          "supported_platforms": ["android_mobile"],
+          "supported_platforms": [
+            "android_mobile"
+          ],
           "install_kind": "url",
           "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/shitHead.apk",
           "web_url": "https://www.3p-cups.com/2020/04/ShitHead.html",
           "icon_url": "https://the-3p-cups-project.web.app/img/ic_poop_head.png",
           "version": "1.04"
+        },
+        {
+          "package_name": "com.david.haru.clipboardaction",
+          "title": "Clipboard Manager",
+          "short_description": "Turn copied text into actions",
+          "long_description": "Clipboard Manager — turn any copied text into an action: call, message, share, open URLs, or search. Also keeps a library of reusable text clips and notes. Installed directly from the AppSync source's downloads.",
+          "supported_platforms": [
+            "android_mobile"
+          ],
+          "install_kind": "url",
+          "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/clipboardManager.apk",
+          "web_url": "https://3p-cups.com",
+          "version": "1.6.00"
         }
       ],
       "firebase_apps": {
         "service": "firestore",
         "project_id": "the-3p-cups-project",
         "collection": "MyApps",
-        "supported_platforms": ["android_mobile"]
+        "supported_platforms": [
+          "android_mobile"
+        ]
       }
     },
     {
@@ -84,7 +109,9 @@
           "title": "Tic Tac Toe",
           "short_description": "The classic 3x3 game",
           "long_description": "Tic Tac Toe — an early pre-3P Cups Android exercise.",
-          "supported_platforms": ["android_mobile"],
+          "supported_platforms": [
+            "android_mobile"
+          ],
           "install_kind": "url",
           "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/ticTacToe.apk",
           "version": "1.0"
@@ -94,7 +121,9 @@
           "title": "SeekRet",
           "short_description": "Chat experiment",
           "long_description": "SeekRet — an early pre-3P Cups chat experiment.",
-          "supported_platforms": ["android_mobile"],
+          "supported_platforms": [
+            "android_mobile"
+          ],
           "install_kind": "url",
           "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/seekRet.apk",
           "version": "1.0"
@@ -104,7 +133,9 @@
           "title": "NightMare",
           "short_description": "3D zombie survival (Unity)",
           "long_description": "NightMare — a 3D zombie game built in Unity, originally for Windows, packaged as an Android APK.",
-          "supported_platforms": ["android_mobile"],
+          "supported_platforms": [
+            "android_mobile"
+          ],
           "install_kind": "url",
           "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/nightMare.apk",
           "version": "1.0"
@@ -120,7 +151,9 @@
           "title": "Test",
           "short_description": "Mystery build (airXonix)",
           "long_description": "test.apk — turned out to be an airXonix build.",
-          "supported_platforms": ["android_mobile"],
+          "supported_platforms": [
+            "android_mobile"
+          ],
           "install_kind": "url",
           "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/test.apk",
           "version": "1.0"
@@ -130,7 +163,9 @@
           "title": "Hello World!",
           "short_description": "The very first one",
           "long_description": "Hello World! — where it all started.",
-          "supported_platforms": ["android_mobile"],
+          "supported_platforms": [
+            "android_mobile"
+          ],
           "install_kind": "url",
           "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/helloWorld.apk",
           "version": "1.0"
