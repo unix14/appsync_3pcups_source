@@ -76,19 +76,6 @@
           "web_url": "https://www.3p-cups.com/2020/04/ShitHead.html",
           "icon_url": "https://the-3p-cups-project.web.app/img/ic_poop_head.png",
           "version": "1.04"
-        },
-        {
-          "package_name": "com.david.haru.clipboardaction",
-          "title": "Clipboard Manager",
-          "short_description": "Turn copied text into actions",
-          "long_description": "Clipboard Manager — turn any copied text into an action: call, message, share, open URLs, or search. Also keeps a library of reusable text clips and notes. Installed directly from the AppSync source's downloads.",
-          "supported_platforms": [
-            "android_mobile"
-          ],
-          "install_kind": "url",
-          "apk_url": "https://raw.githubusercontent.com/unix14/appsync_3pcups_source/main/downloads/clipboardManager.apk",
-          "web_url": "https://3p-cups.com",
-          "version": "1.6.00"
         }
       ],
       "firebase_apps": {
@@ -98,7 +85,10 @@
         "supported_platforms": [
           "android_mobile"
         ]
-      }
+      },
+      "app_repos": [
+        "unix14/clipboard_manager"
+      ]
     },
     {
       "group_id": "pre3p",
