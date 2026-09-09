@@ -85,10 +85,7 @@
         "supported_platforms": [
           "android_mobile"
         ]
-      },
-      "app_repos": [
-        "unix14/clipboard_manager"
-      ]
+      }
     },
     {
       "group_id": "pre3p",
