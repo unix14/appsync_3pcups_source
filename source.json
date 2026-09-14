@@ -6,6 +6,9 @@
     {
       "group_id": "apps",
       "group_name": "3P Cups Apps",
+      "app_repos": [
+        "unix14/black_launcher"
+      ],
       "external_apps": [
         {
           "package_name": "com.Unix14.aiRoads",
