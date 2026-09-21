@@ -8,7 +8,8 @@
       "group_name": "3P Cups Apps",
       "app_repos": [
         "unix14/black_launcher",
-        "unix14/hack_this_app"
+        "unix14/hack_this_app",
+        "unix14/that90s-browser"
       ],
       "external_apps": [
         {
